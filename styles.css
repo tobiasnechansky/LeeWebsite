@@ -8,3 +8,15 @@ main {
     padding: 2rem;
     background-color: rgba(169, 169, 169, 0.7);
 }
+
+a, a:visited{
+    text-decoration: none;
+    color:blue;
+}
+
+ul{
+    list-style: circle;
+}
+ul ul{
+    list-style: square;
+}
