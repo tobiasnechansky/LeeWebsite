@@ -9,23 +9,32 @@ main {
     background-color: rgba(169, 169, 169, 0.7);
 }
 
-a, a:visited{
+a, a:visited {
     text-decoration: none;
-    color:blue;
 }
 
-ul{
+a {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+ul {
     list-style: circle;
 }
-ul ul{
+
+ul ul {
     list-style: square;
 }
 
-table{
+table {
     border: 1px black solid;
     border-radius: 5px;
     padding: 0;
 }
-td, th{
+
+td, th {
     border: 1px black solid;
 }
