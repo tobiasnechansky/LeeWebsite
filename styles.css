@@ -38,3 +38,10 @@ table {
 td, th {
     border: 1px black solid;
 }
+
+img {
+    float: right;
+    border-radius: 10%;
+    max-width: 200px;
+    margin-right: 3rem;
+}
